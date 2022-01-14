@@ -33,7 +33,7 @@ public class FeedingController {
 		return vista;
 	}
 	
-	@PostMapping(value="/feeding/create")
+	/*@PostMapping(value="/feeding/create")
 	public String processCreationForm(@Valid Feeding feeding, BindingResult result) throws UnfeasibleFeedingException {
 		if (result.hasErrors()) {
 			return "feedings/createOrUpdateFeedingForm";
@@ -41,6 +41,6 @@ public class FeedingController {
 			feedingService.save(feeding);
 			return "redirect:welcome";
 		}
-	}
+	}*/
 	
 }
